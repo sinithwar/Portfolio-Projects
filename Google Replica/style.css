@@ -1,0 +1,102 @@
+html, body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px; }
+
+#container {
+  height: 100%;
+  position: relative; }
+
+#top {
+  padding-bottom: 10px; }
+  #top #sign_in {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    text-shadow: 4px 3px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 3px 10px 3px 10px;
+    border-right: solid #1f638d 2px;
+    border-bottom: solid #1f638d 2px;
+    text-decoration: none;
+    cursor: pointer; }
+  #top ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse; }
+    #top ul li {
+      padding: 5px; }
+  #top .tiles {
+    width: 2px;
+    height: 2px;
+    background-color: #808080; }
+
+#middle {
+  padding-bottom: 60px;
+  text-align: center; }
+  #middle .googleops {
+    height: 36px;
+    line-height: 27px;
+    background: #f2f2f2;
+    color: #757575;
+    font-weight: bold;
+    padding: 0 16px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    margin-right: 2px;
+    margin-left: 2px; }
+    #middle .googleops a {
+      text-decoration: none;
+      color: inherit; }
+  #middle .googleops:hover {
+    color: #000;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e4e4e4;
+    cursor: pointer; }
+  #middle img {
+    margin-top: 15%; }
+  #middle input {
+    width: 50%; }
+  #middle button {
+    margin-top: 20px; }
+
+#footer {
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #666;
+  background-color: #f2f2f2;
+  border-top: 1px solid #c6c6c6; }
+  #footer ul {
+    padding: 10px 0px auto 0px;
+    margin: 0px; }
+    #footer ul li {
+      display: inline-block;
+      list-style-type: none; }
+      #footer ul li a {
+        color: inherit;
+        text-decoration: none; }
+  #footer #right {
+    float: right;
+    padding-right: 20px;
+    padding-top: 10px; }
+    #footer #right li {
+      margin-right: 10px; }
+  #footer #left {
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left; }
+    #footer #left li {
+      margin-left: 10px; }
+
+/*# sourceMappingURL=style.css.map */
